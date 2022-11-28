@@ -1,0 +1,13 @@
+/* This would contain all the css related to the MainPage */
+
+.App {
+  text-align: center;
+}
+
+a {
+  color:darkolivegreen
+}
+
+a:visited {
+  color: darkred;
+}
