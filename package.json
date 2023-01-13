@@ -5,15 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "react-bootstrap": "^2.6.0"
+    "fs": "^0.0.1-security",
+    "react-bootstrap": "^2.6.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "sequelize": "^6.28.0",
+    "tedious": "^15.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "web-vitals": "^3.1.0"
   }
 }
